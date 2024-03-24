@@ -24,9 +24,8 @@ const mostrarPropiedades = (propiedades = propiedadesJson) => {
 const busquedaSinResultado = () =>{
     html=`
         <div class="busquedaSinResultado">
-            <div>¡Lo siento Mucho!</div>
-            <img src="./assets/img/mikasa.png" alt="mikasa">
-            <div>No encontramos ninguna propiedad que se ajuste a lo que buscas.</div>
+            <div>¡LO SENTIMOS!</div>
+            <div>No encontramos propiedades segun lo que buscas.</div>
         </div>
     `
     document.querySelector('.propiedades').innerHTML = html;
